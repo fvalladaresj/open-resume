@@ -44,6 +44,7 @@ export const styles = StyleSheet.create({
   flexRow: {
     display: "flex",
     flexDirection: "row",
+    textAlign: "justify",
   },
   flexRowBetween: {
     display: "flex",

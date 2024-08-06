@@ -54,7 +54,7 @@ export const ResumePDFSection = ({
 export const ResumePDFText = ({
   bold = false,
   themeColor,
-  style = {},
+  style = { textAlign: "justify" },
   children,
 }: {
   bold?: boolean;
